@@ -1,19 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Beautiful Day</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="header"> Welcome to my page</div>
 
-<div class="container">
-    <input type="text " class="user" name="username" placeholder="username" requiered><br>
-    <input type="text " class="user" name="pwd" placeholder="password" requiered><br>
-    <button class="btn" type="button" >Submit</button>
+<!-- Navigation -->
+<nav class="navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"></a>
+	<button class=="navbar-toggler" type="button" data-toggle="collapse" data-target="#navebarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navebarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Beautiful times</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Memory Lane</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Young</a>
+			</li>
+		</div>
 </div>
-    <div class="footer"> Copy write 2020 Corona Virues</div>
+
+</nav>
+
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="image/me.jpeg">
+			<div class="carousel-caption">
+				<h1 class="display-2"> Its Your Day</h1>
+				<h3>Extravegent looking fingerlicking</h3>
+				<button type="button" class="btn btn-outline-light btn-lg">ViewMore</button>
+				<button type="button" class="btn btn-primary btn-lg">GetStarted</button>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="image/she.jpeg">
+		</div>
+		<div class="carousel-item">
+			<img src="image/hug.jpeg">
+		</div>
+	</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+<div class="row Jumbotron">
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+		<p> It was beautiful day on 31st of june 2016 we had a great time.</p>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+		<a href="#"><button type="button" class="btn btn-outline=secondary btn-lg">More Happines</button></a>
+	</div>
+</div>
+</div>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="disply-4">Individually, we are one drop. together, we are an Ocean</h1>
+		<hr>
+		<div class="col-12">
+			<p>Marriage is over in an hour, and yet it takes a lifetime to be really married</p>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-lg-4">
+			<h1>Handsome Man</h1>
+			<img class="man" src="image/me.png" >
+			<p>once upon the time there was this man</p>
+				</div>
+				<hr class="my-4">
+				<div>
+			
+			<h1>Gorgious baby</h1>
+			<img class="baby" src="image/baby.JPG" alt="">
+			<p>a beautiful lady we got called Meryem</p>
+		</div>
+		<hr class="my-4">
+		<div>
+			
+			<h1>The Bueatiful Lady</h1>
+			<img class="lady" src="image/lady.JPG" alt="">
+			<p>Once upon the time there were a pretty lady</p>
+		</div>
+		<hr class="my-4">
+
+	</div>
+
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-lg-6">
+		<h2>If you know you know...</h2>
+		<p>The story is when you find the love of your lif the one that complete your existince in life, the feeling is unexperianced before un imaginable</p>
+		<p>As Socrates says "By all means marry: if you get a good wife, you will become happy; if you get a bad one, you will be a philosopher</p>
+		<p>Having somewhere to go is home. Having someone to love is family. And having both is a blessing</p>
+		<br>
+		<a href="#" class="btn btn-primary">Know yourself</a>
+
+	</div>
+		<div class="col-lg-6">
+			<img src="image/day.jpeg" class="img-fluid">
+		</div>
+</div>	
+</div>
+
+<hr class="my-4">
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+
+<!--- Emoji Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">Click for more pictures</button>
+<div id="emoji" class="collapse">
+<div class="Container-fluid padding">
+<div class="row text-center">
+	<div class="col-lg-6 col-lg-6" >
+		<img class="gif" src="image/gif/all.jpeg">
+	</div>
+	
+	<div class="col-lg-6 col-lg-3">
+		<img class="gif" src="image/gif/kiss.jpeg">
+	</div>
+	<div class="col-lg-6 col-lg-3">
+		<img class="gif" src="image/gif/walk.jpeg">
+	</div>
+
+</div>	
+</div>	
+</div>
+
+<!--- Meet the team -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="disply-4">Meet the Guest</h1>
+	</div>
+	<hr>
+</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top"src="image/guest1.jpg">
+			<div class="card-body">
+				<h4 class="card-title">The Eritrean Family</h4>
+				<p>The Groom's family wearing traditional Eritrean colorful Dresses</p>
+				<a href="#" class="btn btn-outline-secondary">See Image</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top"src="image/guest2.jpg">
+			<div class="card-body">
+				<h4 class="card-title">The Bride's Best Friends</h4>
+				<p>The Brides Best Friends are enjoying thier best friends wedding</p>
+				<a href="#" class="btn btn-outline-secondary">See Image</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top"src="image/guest3.jpg">
+			<div class="card-body">
+				<h4 class="card-title">The Egyption Family</h4>
+				<p>Bride's family enjoying the wedding while enjoying the juice</p>
+				<a href="#" class="btn btn-outline-secondary">See Image</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-6">
+			<h2>Special Mention To my wife</h2>
+			<p>You are my wife, friend and the closest companion in the world built of love, you are my light when there is darkness.</p>
+			<p> My joy in times of sadness and my energy in times of weakness. I so much cherish you and that’s just the truth, my sweet love!</p>
+			
+		</div>
+			<div class="col-lg-6">
+				<img src="image/is.jpeg" class="img-fluid">
+	
+			</div>
+	</div>	
+	
+	</div>
+
+<!--- Connect -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-12">
+		<h2>Connect</h2>
+	</div>
+	<div class="col-12 social padding">
+		<a href="#"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-google-plus-g"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>
+</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding">
+	<div class="row text-center">
+		<div class="col-md-4">
+		<hr class="light">
+		<h5>Contact Us</h5>
+		<hr class="light">
+		<p>yass25@weeding.com</p>
+		<p>02080208208</p>
+		<p>Memory lane, M1 3ZD</p>
+		<p>United Kingdom</p>
+		</div>
+		
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>Our hours</h5>
+			<hr class="light">
+			<p>Love avialble 24 hour </p>
+			<p>7 days a week</p>
+			<p>365 days a year</p>
+		</div>
+
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>Love Service</h5>
+			<hr class="light">
+			<p>Africa </p>
+			<p>Asia</p>
+			<p>Middel East</p>
+			<p>Austoralia</p>
+			<p>Europe</p>
+		</div>
+		<div class="col-12">
+			<hr class="light">
+			<h5>&copy; love</h5>
+		</div>
+
+	</div>
+	</div>
+</footer>
+
+
+
 </body>
 </html>
